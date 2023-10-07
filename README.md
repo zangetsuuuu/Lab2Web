@@ -43,7 +43,7 @@ Kelas : TI.22.A3
 
 - Simpan perubahan dan buka di browser untuk melihat hasilnya
 
-
+![Web capture_7-10-2023_165943_](https://github.com/zangetsuuuu/Lab2Web/assets/115514467/bae501f9-5923-4d9f-b367-503f3ef5b4a5)
 
 ### Mendeklarasikan CSS Internal
 
@@ -77,7 +77,7 @@ Kelas : TI.22.A3
 ```
 - Simpan perubahan dan lihat hasilnya
 
-
+![Web capture_7-10-2023_17123_](https://github.com/zangetsuuuu/Lab2Web/assets/115514467/9396d87e-8213-4399-b0da-199d45fdc2f1)
 
 ### Menambahkan *Inline* CSS
 
@@ -89,7 +89,7 @@ Kelas : TI.22.A3
 
 - Simpan perubahan dan lihat hasilnya
 
-
+![Web capture_7-10-2023_17246_](https://github.com/zangetsuuuu/Lab2Web/assets/115514467/81efb820-303e-4781-8ad0-1c774ce9a5d0)
 
 ### Membuat CSS Eksternal
 
@@ -116,7 +116,7 @@ nav a:hover {
 
 - Simpan perubahan dan lihat hasilnya
 
-
+![Web capture_7-10-2023_17448_](https://github.com/zangetsuuuu/Lab2Web/assets/115514467/4c372ff4-ce4c-4ff2-9f4d-2e96476e594a)
 
 ### Menambahkan CSS Selector
 
@@ -155,3 +155,41 @@ nav a:hover {
 ```
 
 - Simpan dan lihat hasilnya
+
+![Web capture_7-10-2023_17531_](https://github.com/zangetsuuuu/Lab2Web/assets/115514467/5669526a-0f41-4922-9479-9bc5f26ccc58)
+
+## Pertanyaan
+
+**1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul!**
+
+![Web capture_7-10-2023_173835_](https://github.com/zangetsuuuu/Lab2Web/assets/115514467/877298a8-ac9c-450e-ba67-09e838ed71b0)
+
+---
+
+**2. Apa perbedaan pendeklarasian CSS `h1 {...}` dengan `#intro h1 {...}`? Berikan penejelasannya!**
+
+Pendeklarasian CSS elemen `h1 {...}` akan mengubah gaya semua elemen `h1` di halaman web. Artinya, semua elemen `h1` di halaman web akan memiliki gaya yang sama, terlepas dari elemen apa yang menampung mereka. Sedangkan, pendeklarasian CSS `#intro h1 {...}` akan mengubah gaya elemen `h1` yang memiliki `id` "intro". Artinya, hanya elemen `h1` dengan `id` "intro" yang akan memiliki gaya yang ditentukan.
+
+---
+
+**3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan _inline_ CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!**
+
+Dalam kasus ini, deklarasi CSS yang akan ditampilkan pada browser adalah _inline_ CSS. Hal ini karena _inline_ CSS memiliki prioritas yang lebih tinggi daripada CSS internal dan CSS eksternal.
+
+Contoh:
+
+![Web capture_7-10-2023_181522_www w3schools com](https://github.com/zangetsuuuu/Lab2Web/assets/115514467/66ae65fd-9ede-4631-8432-07bb68957ccb)
+
+---
+
+**4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!**
+
+Apabila sebuah elemen HTML terdapat `id` dan `class`, dan masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi CSS yang akan ditampilkan pada browser adalah deklarasi CSS dengan selector `id`. Hal ini karena selector `id` memiliki prioritas yang lebih tinggi daripada selector `class`.
+
+Contoh:
+
+![Web capture_7-10-2023_183644_www w3schools com](https://github.com/zangetsuuuu/Lab2Web/assets/115514467/a2a3b43e-788d-4818-ab91-38b063575f1f)
+
+---
+
+## Sekian, terimakasih
